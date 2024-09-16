@@ -5,8 +5,6 @@ import Dashboard from "./pages/Dashboard"
 import Send from "./pages/Send"
 
 function App() {
-  const navigate = useNavigate()
-  navigate('/dashboard')
   return (
     <>
       <BrowserRouter>
